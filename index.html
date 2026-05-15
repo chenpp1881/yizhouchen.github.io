@@ -186,6 +186,40 @@ body {
   border-color: var(--pku); color: var(--pku);
   background: var(--tag-a-bg);
 }
+.research-note {
+  max-width: 840px;
+  margin-top: 24px;
+  font-size: 17.5px;
+  line-height: 1.85;
+  color: var(--body);
+}
+.market-note {
+  max-width: 840px;
+  margin-top: 20px;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.75;
+  box-shadow: var(--shadow-sm);
+}
+.market-note span {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+  margin-bottom: 4px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--pku);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
 
 /* ─── EDUCATION ─── */
 .edu-paragraph {
@@ -452,9 +486,6 @@ footer {
       <p>
         Before joining Peking University, I received my Master's degree in Electronic Information (Software Engineering) from the School of Computer Science, Wuhan University, under the supervision of <a href="https://cs.whu.edu.cn/info/1019/2952.htm" target="_blank" style="color:var(--ink);text-decoration:underline;">Prof. Jin Liu</a>.
       </p>
-      <p>
-        <strong> I am currently on the academic/industrial job market for research positions. Please feel free to reach out for potential collaborations! </strong>
-      </p>
     </div>
     <div class="hero-links">
       <a id="hero-email-link" href="#" class="hero-link">
@@ -487,13 +518,16 @@ footer {
       <h2 class="section-title">Research Interests</h2>
     </div>
     <div class="interests reveal">
-      <span class="interest-tag">Software Engineering</span>
       <span class="interest-tag">Blockchain Security</span>
-      <span class="interest-tag">Smart Contract Vulnerability Detection</span>
-      <span class="interest-tag">Artificial Intelligence</span>
       <span class="interest-tag">Formal Verification</span>
       <span class="interest-tag">Large Language Models</span>
     </div>
+    <p class="research-note reveal">
+      My current research interests center on the training and inference of large language models, with a particular focus on building capable, reliable, and trustworthy AI agents for complex software engineering and security tasks.
+    </p>
+    <p class="market-note reveal">
+      <span>Open to Opportunities</span>I am currently on the academic/industrial job market for research positions. Please feel free to reach out for potential collaborations!
+    </p>
   </div>
 </section>
 
